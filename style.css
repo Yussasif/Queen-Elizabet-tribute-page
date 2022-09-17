@@ -39,6 +39,11 @@ nav{
     height: auto;
     margin-left: 50px;
 }
+.tav-nav{
+    width: 70%;
+    justify-content: flex-end;
+    align-items: center;
+}
 .navlist{
     display: flex;
     width: 70%;
@@ -271,6 +276,7 @@ flex-grow: 0;
 .inner-timeline{
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 .inner-timeline > h3{
     font-family: 'Cabinet';
@@ -279,7 +285,7 @@ flex-grow: 0;
     font-size: 30px;
     line-height: 37px;
     /* text-transform: uppercase; */
-    width: 63px;
+    width: 30%;
     height: 37px;
     padding-right: 10px;
     color: #1B1C1E;
@@ -298,8 +304,8 @@ flex-grow: 0;
     font-size: 16px;
     line-height: 30px;
     /* or 188% */
-    width: 279px;
-    height: 300px;
+    width: 60%;
+    /* height: 300px; */
     text-align: justify;
     color: #1B1C1E;
     
@@ -346,8 +352,8 @@ flex-grow: 0;
     padding-left: 3vw;
 }
 .macron > p, .buhari > p{
-    width: 363px;
-    height: 203px;
+    width: 60%;
+    /* height: 203px; */
     
     /* font-family: 'Moderat Trial'; */
     font-style: normal;
