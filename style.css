@@ -963,14 +963,25 @@ margin: 0 20px 0 20px;
 .title{
     font-size: 5vw;
     line-height: 40px;
+    text-align: center;
     }
     .title-p{
-
+    text-align: center;
     font-size: 3vw;
     line-height: 10px;
-
+    padding-bottom: 10px;
     }
     .title-cont{
         margin-bottom: 5px;
+    }
+    #timeline2, #timeline3{
+        display: none;
+    }
+    .timeline-sec{
+        display: block;
+        width: 100%;
+    }
+    #timeline3{
+        width: 60%;
     }
 }
