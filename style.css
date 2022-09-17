@@ -584,10 +584,13 @@ hr{
     #box1 > img{
         width: auto;
     }
+    #box2, #box3, #box4, #box6{
+        display: none;
+    }
     #box3, #box5{
 
-    font-size: 2vw;
-    line-height: 3vw;
+    font-size: 3vw;
+    line-height: 3vh;
     /* or 167% */
     
     }
