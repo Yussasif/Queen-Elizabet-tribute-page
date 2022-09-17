@@ -554,20 +554,20 @@ hr{
     
     }
     .hero-text > h2{
-        font-size: 4.5vw;
+        font-size: 6vw;
         line-height: 49px;
     }
     #one{
-        font-size: 2.5vw;
+        font-size: 3vw;
         line-height: 24px;
     }
 
     #two{
-        font-size: 1.7vw;
+        font-size: 2vw;
         line-height: 22px;
     }
     #three{
-        font-size: 1.7vw;
+        font-size: 2vw;
         line-height: 19px;
         
     }
