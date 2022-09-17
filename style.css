@@ -498,6 +498,7 @@ hr{
     
     }
     .navlink{
+        display: none;
     text-decoration: none;
     font: 16px;
     font-family: 'cabinetlight';
@@ -522,6 +523,7 @@ hr{
     
     }
     .tribute-btn{
+        display: none;
         background: none;
         padding: 10px;
         color: #E7E8E9;
