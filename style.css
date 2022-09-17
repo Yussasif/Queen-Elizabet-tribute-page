@@ -590,7 +590,7 @@ hr{
     #box3, #box5{
 
     font-size: 3vw;
-    line-height: 3vh;
+    line-height: 3vw;
     /* or 167% */
     
     }
@@ -854,16 +854,16 @@ nav{
     background-repeat: no-repeat;
     background-size: cover;
     background-color: black;
-    padding: 15px;
+    padding: 3vw;
     display: flex;
     position: relative;
     box-shadow: 3px 0px 15px #58595a;
 
 }
 .logo{
-    max-width: 50px;
+    max-width: 8vw;
     height: auto;
-    margin-left: 50px;
+    /* margin-left: 50px; */
 }
 .tav-nav{
     width: 70%;
