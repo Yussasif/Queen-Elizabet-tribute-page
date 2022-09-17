@@ -464,9 +464,10 @@ hr{
         background-repeat: no-repeat;
         background-size: cover;
         /* opacity: 0.05; */
-        height: 800px;
+        height: 650px;
         background-color: black;
     }
+    
     
     nav{
         background: url(images/dark-noise.png);
@@ -803,5 +804,29 @@ hr{
         margin-top: 2vh;
     }
     
+    
+}
+@media screen and (min-width: 501px) and (max-width: 900px){
+    .hero{
+        background: url(images/dark-noise.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* opacity: 0.05; */
+        height: 600px;
+        background-color: black;
+}
+}
+
+@media screen and (min-width: 501px) and (max-width: 800px){
+    .hero{
+        background: url(images/dark-noise.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* opacity: 0.05; */
+        height: 500px;
+        background-color: black;
+}
+}
+@media screen and (max-width: 599px){
     
 }
