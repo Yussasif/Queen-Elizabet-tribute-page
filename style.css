@@ -981,7 +981,13 @@ margin: 0 20px 0 20px;
         display: block;
         width: 100%;
     }
-    #timeline3{
+    #timeline1{
         width: 60%;
+    }
+    .inner-timeline > h3{
+        font-size: 4vw;
+    }
+    .inner-timeline > p{
+        font-size: 3vw;
     }
 }
