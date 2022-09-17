@@ -457,7 +457,7 @@ hr{
 
 
 /* For medium screen */
-@media screen and (min-width: 501px) and (max-width: 1000px){
+@media screen and (max-width: 1000px){
 
     .hero{
         background: url(images/dark-noise.png);
@@ -827,6 +827,131 @@ hr{
         background-color: black;
 }
 }
+
+
+
+
+
+
 @media screen and (max-width: 599px){
     
+    .hero{
+    background: url(images/dark-noise.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.05; */
+    height: auto;
+    background-color: black;
+}
+
+nav{
+    background: url(images/dark-noise.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    padding: 15px;
+    display: flex;
+    position: relative;
+    box-shadow: 3px 0px 15px #58595a;
+
+}
+.logo{
+    max-width: 50px;
+    height: auto;
+    margin-left: 50px;
+}
+.tav-nav{
+    width: 70%;
+    justify-content: flex-end;
+    align-items: center;
+}
+.navlist{
+    display: flex;
+    width: 70%;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+.navlink{
+text-decoration: none;
+font: 16px;
+font-family: 'cabinetlight';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+color: #E7E8E9;
+opacity: 0.5;
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 0 20px 0 20px;
+}
+.writeTribute{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 15%;
+
+}
+.tribute-btn{
+    background: none;
+    padding: 10px;
+    color: #E7E8E9;
+    white-space: nowrap;
+    font-family: 'cabinetlight';
+    /* opacity: 0.5; */
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    border: 2px solid #E7E8E9;
+    max-width: fit-content;
+}
+.hero-content{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    
+    padding: 0 5vw 0 5vw;
+    width: 80%;
+    margin: auto;
+    margin-top: 60px;
+}
+.hero-text{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    /* padding-top: 100px; */
+    /* width: 579px; */
+    /* height: 90px; */
+
+}
+.hero-text > h2{
+    font-family: 'cabinet';
+    font-style: normal;
+    font-weight: 700;
+    /* font-size: 64px;
+    line-height: 79px; */
+    text-transform: uppercase;
+    
+    color: #E7E8E9;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.hero-img{
+    width: 100%;
+    /* display: flex; */
+    align-items: baseline;
+    height: auto;
+    margin-top: 150px;
+} 
 }
